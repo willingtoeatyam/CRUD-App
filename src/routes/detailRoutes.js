@@ -2,7 +2,7 @@ const express = require('express');
 const router  = express.Router();
 const detailCtrl = require('../controllers/detailControllers');
 
-//WELCOME PAGE
+//Welcome Page
 router.get('/', detailCtrl.displayMessage)
 
 //CREATE detail entry
