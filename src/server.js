@@ -11,4 +11,4 @@ dbSetup();
 app.use(express.json());
 app.use(detailRoutes);
 
-app.listen(port , ()=> console.log(`Server is listening on port ${port}`));
+app.listen(port || 5000 , ()=> console.log(`Server is listening`));
