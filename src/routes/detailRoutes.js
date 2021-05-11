@@ -12,13 +12,13 @@ router.post('/info', detailCtrl.createDetails)
 //read multiple entries
 router.get('/info', detailCtrl.getAllDetails)
 
-//read single
+//read single entry
 router.get('/info/:id', detailCtrl.getSingleDetails)
 
-//UPDATE
+//UPDATE entry
 router.put('/info/:id', detailCtrl.updateDetails)
 
-//DEL
+//DELETE entry
 router.delete('/info/:id', detailCtrl.deleteDetails)
 
 module.exports = router;
