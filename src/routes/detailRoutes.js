@@ -9,7 +9,7 @@ router.get('/', detailCtrl.displayMessage)
 router.post('/info', detailCtrl.createDetails)
 
 //READ
-//read multiple
+//read multiple entries
 router.get('/info', detailCtrl.getAllDetails)
 
 //read single
