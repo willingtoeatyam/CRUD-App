@@ -9,6 +9,12 @@ This is a simple express application that:
 
 Data required includes: name, email & country. 
 
+In the following format 
+{
+  "name": String,
+  "email": String,
+  "country": String
+}
 
 
 ## API Reference
